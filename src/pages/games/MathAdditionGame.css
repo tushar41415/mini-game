@@ -1,0 +1,76 @@
+/* MathAdditionGame.css */
+
+body {
+  background: linear-gradient(to bottom right, #7f7fd5, #86a8e7, #91eae4);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.game-container {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.glass-card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.glow-text {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.glowing-timer {
+  animation: glowPulse 1.5s infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 233, 147, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 18px rgba(255, 233, 147, 1);
+  }
+}
+
+.animated-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animated-bounce-in {
+  animation: bounceIn 0.6s ease-out;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.animated-pop {
+  animation: popIn 0.4s ease-in-out;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+button, .btn {
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}

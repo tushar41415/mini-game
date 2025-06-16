@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.jsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import GameList from "./pages/GameList";
+import MathAdditionGame from "./pages/games/MathAdditionGame";
+import ColorMatchGame from "./pages/games/ColorMatchGame";
+import EmojiTapGame from "./pages/games/EmojiTapGame";
+import GridGlowGame from "./pages/games/GridGlowGame";
+import FlipTheCardGame from "./pages/games/FlipTheCardGame";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/games" element={<GameList />} />
+        <Route path="/math-addition" element={<MathAdditionGame />} />
+        <Route path="/color-match" element={<ColorMatchGame />} />
+        <Route path="/emoji-tap" element={<EmojiTapGame />} />
+        <Route path="/grid-glow" element={<GridGlowGame />} />
+        <Route path="/flip-card" element={<FlipTheCardGame />} />
+
+
+
+
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
