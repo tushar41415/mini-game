@@ -1,0 +1,31 @@
+.emoji-game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.emoji-grid {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.emoji-box {
+  font-size: 2rem;
+  background: #ffffff20;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 0 8px #fff2;
+}
+
+.emoji-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #fff5;
+}
+
+.emoji-game-over h3 {
+  color: red;
+}

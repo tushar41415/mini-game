@@ -5,29 +5,35 @@ import "./GameList.css";
 const games = [
     {
         name: "➕ Math Addition",
-        description: "Add numbers quickly before the time runs out!",
-        path: "/math-addition",
-    },
-    {
-        name: "🎨 Color Match",
-        description: "Match the actual color of the text, not the word!",
-        path: "/color-match",
-    },
-    {
-        name: "😂 Emoji Tap",
-        description: "Tap the matching emoji before the time runs out!",
-        path: "/emoji-tap",
-    },
-    {
-        name: "🧠 GridGlow Memory",
-        description: "Watch the glowing boxes and repeat the sequence to level up!",
-        path: "/grid-glow",
-    },
-    {
-        name: "🎴 Flip the Card",
-        description: "Memorize and flip the correct cards to level up!",
-        path: "/flip-card",
-    }
+    description: "Add numbers quickly before the time runs out!",
+    path: "/math-addition",
+  },
+  {
+    name: "🎨 Color Match",
+    description: "Match the actual color of the text, not the word!",
+    path: "/color-match",
+  },
+  {
+    name: "😂 Emoji Tap",
+    description: "Tap the matching emoji before the time runs out!",
+    path: "/emoji-tap",
+  },
+  {
+    name: "🧠 GridGlow Memory",
+    description: "Watch the glowing boxes and repeat the sequence to level up!",
+    path: "/grid-glow",
+  },
+  {
+    name: "🎴 Flip the Card",
+    description: "Memorize and flip the correct cards to level up!",
+    path: "/flip-card",
+  },
+  {
+    name: "🕵️‍♂️ Find the Different Emoji",
+    description: "Spot the odd one out before the timer ends!",
+    path: "/find-different-emoji",
+  }
+
 
 ];
 

@@ -7,6 +7,7 @@ import ColorMatchGame from "./pages/games/ColorMatchGame";
 import EmojiTapGame from "./pages/games/EmojiTapGame";
 import GridGlowGame from "./pages/games/GridGlowGame";
 import FlipTheCardGame from "./pages/games/FlipTheCardGame";
+import FindTheDifferentEmoji from "./pages/games/FindTheDifferentEmoji";
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
         <Route path="/emoji-tap" element={<EmojiTapGame />} />
         <Route path="/grid-glow" element={<GridGlowGame />} />
         <Route path="/flip-card" element={<FlipTheCardGame />} />
+        <Route path="/find-different-emoji" element={<FindTheDifferentEmoji />} />
+
 
 
 
