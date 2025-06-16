@@ -1,0 +1,55 @@
+/* TypeDash.css */
+.typedash-wrapper {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1f2e, #2a2a40);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.typedash-wrapper h2 {
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 0 0 5px #ffd700, 0 0 10px #ffea00;
+  animation: glowTitle 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowTitle {
+  from {
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffea00;
+  }
+  to {
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #fff200;
+  }
+}
+
+.typedash-wrapper h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0 0 4px #00ffff, 0 0 10px #00ccff;
+}
+
+.form-control {
+  border: 2px solid #00ffff;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1.25rem;
+  text-shadow: 0 0 2px #00ffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #00ffff;
+  border-color: #00ffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.alert {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid red;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}

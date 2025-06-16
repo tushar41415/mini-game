@@ -32,7 +32,14 @@ const games = [
     name: "🕵️‍♂️ Find the Different Emoji",
     description: "Spot the odd one out before the timer ends!",
     path: "/find-different-emoji",
-  }
+  },
+  {
+  name: "🔤 Type Dash",
+  description: "Type the word quickly before time runs out!",
+  path: "/type-dash",
+}
+
+
 
 
 ];

@@ -8,6 +8,7 @@ import EmojiTapGame from "./pages/games/EmojiTapGame";
 import GridGlowGame from "./pages/games/GridGlowGame";
 import FlipTheCardGame from "./pages/games/FlipTheCardGame";
 import FindTheDifferentEmoji from "./pages/games/FindTheDifferentEmoji";
+import TypeDash from "./pages/games/TypeDash";
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
         <Route path="/grid-glow" element={<GridGlowGame />} />
         <Route path="/flip-card" element={<FlipTheCardGame />} />
         <Route path="/find-different-emoji" element={<FindTheDifferentEmoji />} />
+        <Route path="/type-dash" element={<TypeDash />} />
+
 
 
 
