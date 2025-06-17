@@ -1,0 +1,77 @@
+.trap-wrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.target-box {
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.glow {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
+  font-weight: bold;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  padding: 20px;
+  font-size: 1.3rem;
+  background: #222;
+  color: #fff;
+  border: 2px solid #555;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.cell:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #00bcd4;
+}
+
+.cell.selected {
+  background: #00bcd4;
+  color: #fff;
+  box-shadow: 0 0 15px #00bcd4, inset 0 0 8px #fff;
+  transform: scale(1.1);
+}
+
+.alert {
+  background-color: #ff4444;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button.btn {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}

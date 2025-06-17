@@ -37,7 +37,19 @@ const games = [
   name: "🔤 Type Dash",
   description: "Type the word quickly before time runs out!",
   path: "/type-dash",
+},
+{
+  name: "🎯 Precision Cut",
+  description: "Tap at the perfect moment to hit the target percentage!",
+  path: "/precision-cut"
+},
+{
+  name: "🧮 Grid Math Trap",
+  description: "Pick numbers from grid to match the sum target!",
+  path: "/grid-math-trap",
 }
+
+
 
 
 
